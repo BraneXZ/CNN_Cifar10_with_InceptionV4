@@ -1,1 +1,7 @@
+InceptionV4 uses 3, 7, 4 for its Inception iterations, which were suitable for images with size 256x256
+However, since we are only dealing with 32x32, the model I used uses only 1, 2, 1 Inception iterations.
 
+I was able to achieve an accuracy of 89.28% after 60 epochs with each epochs taking ~3mins.
+
+I tried the model with iterations 3, 7, 4 but it was taking too long and also it does not seem to be performing better
+on earlier iterations, so I decided to just terminate it. 
